@@ -1,0 +1,191 @@
+/*=============== FONTS ===============*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/*=============== HERO SECTION ===============*/
+.home__container {
+  margin-top: var(--px-5);
+}
+.home__header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.home__subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--px-1) var(--px-1);
+  background: var(--main-white);
+  border-radius: 15px;
+  width: auto;
+}
+
+.home__subheader span{
+  width: auto;
+  font-size: 3px!important;
+}
+
+.home__subheader img{
+  width: auto;
+  font-size: 3px!important;
+}
+
+.home__title {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: left;
+  align-items: center;
+  font-family: "Lato"!important;
+  padding: 0;
+  color: var(--main-color);
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.home__title span{
+  margin-left: 5px;
+  font-size: 35px !important;
+  font-family: "Poiret One"!important;
+  color: var(--main-color)
+}
+
+.home__header span {
+  font-size: 2.5rem;
+}
+
+.home__subtitle {
+  flex-direction: column;
+  margin-top: var(--px-3);
+  background: var(--main-color);
+  padding: var(--px-01) var(--px-2);
+  width: auto;
+  border-radius: 15px;
+}
+
+.home__text {
+  font-size: var(--px-1)!important;
+  font-family: "Lato" !important;
+  text-align: left;
+  line-height: var(--px-1);
+  text-transform: capitalize;
+  margin-top: var(--px-01);
+}
+
+.p__text {
+  font-size: var(--px-1)!important;
+  text-align: left;
+  color: var(--main-white);
+  line-height: 1.5;
+}
+
+.home__container {
+  margin-top: var(--px-5);
+}
+
+.home__data {
+  margin-top: var(--px-3);
+}
+
+.p__text {
+  font-size: 0.8rem;;
+  line-height: 1.5;
+}
+
+.home__socials {
+  margin-top: var(--px-2);
+  display: flex;
+  flex-direction: column;
+  column-gap: var(--px-2);
+}
+
+.freelance__services {
+  margin-top: var(--px-05);
+  padding: var(--px-01) var(--px-05);
+  width: auto;
+  border-radius: 15px;
+}
+
+.freelance__header {
+  color: var(--main-white);
+  font-family: "Flamenco"!important;
+}
+
+.freelance__data {
+  display: flex;
+}
+
+.freelance__title {
+  margin-right: 5px;
+  font-family: "Flamenco"!important;
+  font-size: 25px;
+  line-height: 16px;
+  color: var(--main-color2)
+}
+
+.freelance__subtitle {
+  color: var(--main-white);
+  font-family: "Flamenco"!important;
+  font-size: 18px !important;
+}
+
+.home__dev {
+  margin-top: var(--px-01);
+}
+
+.home__img {
+  position: absolute;
+  margin-bottom: var(--px-5);
+  align-items: right;
+  font-size: 200px;
+  width: 280px;
+  top: 55%;
+  right: 3%;
+}
+
+
+/*responsive screens*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+ 
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+
+}
+@media (min-width: 1200px) {
+	
+}
+@media (min-width: 992px) {
+  
+}
+  
+@media (min-width: 480px) {
+
+}
+/*=============== END OF HERO SECTION ===============*/
