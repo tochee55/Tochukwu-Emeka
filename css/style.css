@@ -406,7 +406,7 @@ body, button, input, textarea {
 /*=============== MAIN SECTION ===============*/
 main {
   height: 100vh;
-  background: url('/css/images/desktop-bg.png') no-repeat center center / cover fixed;
+  background: url('css/images/desktop-bg.png') no-repeat center center / cover fixed;
   overflow: hidden;
 }
 
@@ -416,7 +416,7 @@ main {
 }
 @media (max-width: 768px) {
   main {
-    background: url('/css/images/mobile-bg.png') no-repeat center center / cover fixed;
+    background: url('css/images/mobile-bg.png') no-repeat center center / cover fixed;
   }
 }
 @media (max-width: 576px) {
