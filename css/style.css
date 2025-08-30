@@ -1858,7 +1858,7 @@ main {
 }
 @media (max-width: 768px) {
   footer {
-    background: url('/css/images/mobile-bg.png') no-repeat center center / cover fixed;
+    background: url('../images/mobile-bg.png') no-repeat center center / cover fixed;
   }
 	.footer__container {
 		grid-template-columns: repeat(2, 1fr);
@@ -2279,7 +2279,7 @@ main {
 /*========== BLOG SECTION ==========*/
 .main__article {
   width: 100% !important;
-  background: url('/css/images/desktop-bg.png') no-repeat center center / cover fixed;
+  background: url('../images/desktop-bg.png') no-repeat center center / cover fixed;
   overflow: hidden;
 }
 .post__heading {
@@ -2411,7 +2411,7 @@ main {
 }
 @media (max-width: 768px) {
   .main__article {
-    background: url('/css/images/mobile-bg.png') no-repeat center center / cover fixed;
+    background: url('../images/mobile-bg.png') no-repeat center center / cover fixed;
   }
   .blog {
     z-index: 2000;
